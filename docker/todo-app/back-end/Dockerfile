@@ -1,12 +1,10 @@
 FROM node:14-alpine
 
-WORKDIR /app
+WORKDIR /back-end
 
-COPY package*.json  ./
+COPY package*.json  ./back-end
 
-ADD node_modules.tar.gz ./app/node_modules
-
-RUN npm install
+ADD node_modules.tar.gz .
 
 COPY . .
 
