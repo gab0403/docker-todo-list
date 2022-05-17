@@ -1,4 +1,4 @@
-- [Trybe Todo-App 🖥️ 📝](#trybe-todo-app-️-)
+- [[Trybe Todo-App 🖥️ 📝](#trybe-todo-app-️-)}
   - [Requisitos](#requisitos)
   - [Instalação](#instalação)
     - [Estrutura do aplicativo](#estrutura-do-aplicativo)
