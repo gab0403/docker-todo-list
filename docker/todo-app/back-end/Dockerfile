@@ -1,8 +1,6 @@
-FROM node:14-alpine
+FROM node:14-alpine AS todobackend
 
-WORKDIR /back-end
-
-COPY package*.json  ./back-end
+WORKDIR /app
 
 ADD node_modules.tar.gz .
 
@@ -10,4 +8,4 @@ COPY . .
 
 EXPOSE 3001
 
-CMD ["npm", "start"]
+ENTRYPOINT ["npm", "start"]

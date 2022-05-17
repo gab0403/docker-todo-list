@@ -1,6 +1,6 @@
-FROM node:lts-alpine
+FROM node:lts-alpine AS todofrontend
 
-WORKDIR /todo-app/front-end
+WORKDIR /app
 
 ADD node_modules.tar.gz .
 
