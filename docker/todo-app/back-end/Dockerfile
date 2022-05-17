@@ -1,8 +1,8 @@
 FROM node:14-alpine
 
-WORKDIR /todo-app/back-end
+WORKDIR /app
 
-COPY package*.json  ./docker/
+COPY package*.json  ./
 
 ADD node_modules.tar.gz ./app/node_modules
 
